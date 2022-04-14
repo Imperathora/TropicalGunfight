@@ -1,0 +1,12 @@
+{
+	"OutputFiles": [
+		"Module.SteamCoreWeb.cpp.o",
+		"Module.SteamCoreWeb.gen.1_of_7.cpp.o",
+		"Module.SteamCoreWeb.gen.2_of_7.cpp.o",
+		"Module.SteamCoreWeb.gen.3_of_7.cpp.o",
+		"Module.SteamCoreWeb.gen.4_of_7.cpp.o",
+		"Module.SteamCoreWeb.gen.5_of_7.cpp.o",
+		"Module.SteamCoreWeb.gen.6_of_7.cpp.o",
+		"Module.SteamCoreWeb.gen.7_of_7.cpp.o"
+	]
+}

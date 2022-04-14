@@ -1,0 +1,862 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
+class USteamCoreWebAsyncActionCheckAppOwnership;
+class USteamCoreWebAsyncActionGetAppPriceInfo;
+class USteamCoreWebAsyncActionGetFriendList;
+class USteamCoreWebAsyncActionGetPlayerBans;
+class USteamCoreWebAsyncActionGetPlayerSummaries;
+class USteamCoreWebAsyncActionGetPublisherAppOwnership;
+class USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges;
+class USteamCoreWebAsyncActionGetUserGroupList;
+class USteamCoreWebAsyncActionGrantPackage;
+enum class EVanityUrlType : uint8;
+class USteamCoreWebAsyncActionResolveVanityURL;
+#ifdef STEAMCOREWEB_WebSteamUserAsyncActions_generated_h
+#error "WebSteamUserAsyncActions.generated.h already included, missing '#pragma once' in WebSteamUserAsyncActions.h"
+#endif
+#define STEAMCOREWEB_WebSteamUserAsyncActions_generated_h
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCheckAppOwnershipAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCheckAppOwnershipAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionCheckAppOwnership(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionCheckAppOwnership_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionCheckAppOwnership, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionCheckAppOwnership)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionCheckAppOwnership(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionCheckAppOwnership_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionCheckAppOwnership, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionCheckAppOwnership)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionCheckAppOwnership(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionCheckAppOwnership) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionCheckAppOwnership); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionCheckAppOwnership); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionCheckAppOwnership(USteamCoreWebAsyncActionCheckAppOwnership&&); \
+	NO_API USteamCoreWebAsyncActionCheckAppOwnership(const USteamCoreWebAsyncActionCheckAppOwnership&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionCheckAppOwnership() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionCheckAppOwnership(USteamCoreWebAsyncActionCheckAppOwnership&&); \
+	NO_API USteamCoreWebAsyncActionCheckAppOwnership(const USteamCoreWebAsyncActionCheckAppOwnership&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionCheckAppOwnership); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionCheckAppOwnership); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionCheckAppOwnership)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_18_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_21_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionCheckAppOwnership>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAppPriceInfoAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAppPriceInfoAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetAppPriceInfo(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetAppPriceInfo_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetAppPriceInfo, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetAppPriceInfo)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetAppPriceInfo(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetAppPriceInfo_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetAppPriceInfo, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetAppPriceInfo)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetAppPriceInfo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetAppPriceInfo) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetAppPriceInfo); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetAppPriceInfo); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetAppPriceInfo(USteamCoreWebAsyncActionGetAppPriceInfo&&); \
+	NO_API USteamCoreWebAsyncActionGetAppPriceInfo(const USteamCoreWebAsyncActionGetAppPriceInfo&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetAppPriceInfo() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetAppPriceInfo(USteamCoreWebAsyncActionGetAppPriceInfo&&); \
+	NO_API USteamCoreWebAsyncActionGetAppPriceInfo(const USteamCoreWebAsyncActionGetAppPriceInfo&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetAppPriceInfo); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetAppPriceInfo); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetAppPriceInfo)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_37_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_40_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetAppPriceInfo>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetFriendListAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetFriendListAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetFriendList(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetFriendList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetFriendList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetFriendList)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetFriendList(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetFriendList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetFriendList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetFriendList)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetFriendList(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetFriendList) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetFriendList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetFriendList); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetFriendList(USteamCoreWebAsyncActionGetFriendList&&); \
+	NO_API USteamCoreWebAsyncActionGetFriendList(const USteamCoreWebAsyncActionGetFriendList&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetFriendList() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetFriendList(USteamCoreWebAsyncActionGetFriendList&&); \
+	NO_API USteamCoreWebAsyncActionGetFriendList(const USteamCoreWebAsyncActionGetFriendList&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetFriendList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetFriendList); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetFriendList)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_56_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetFriendList>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPlayerBansAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPlayerBansAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPlayerBans(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPlayerBans_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPlayerBans, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPlayerBans)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPlayerBans(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPlayerBans_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPlayerBans, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPlayerBans)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerBans(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPlayerBans) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPlayerBans); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPlayerBans); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerBans(USteamCoreWebAsyncActionGetPlayerBans&&); \
+	NO_API USteamCoreWebAsyncActionGetPlayerBans(const USteamCoreWebAsyncActionGetPlayerBans&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerBans() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerBans(USteamCoreWebAsyncActionGetPlayerBans&&); \
+	NO_API USteamCoreWebAsyncActionGetPlayerBans(const USteamCoreWebAsyncActionGetPlayerBans&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPlayerBans); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPlayerBans); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPlayerBans)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_75_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetPlayerBans>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPlayerSummariesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPlayerSummariesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPlayerSummaries(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPlayerSummaries_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPlayerSummaries, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPlayerSummaries)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPlayerSummaries(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPlayerSummaries_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPlayerSummaries, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPlayerSummaries)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerSummaries(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPlayerSummaries) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPlayerSummaries); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPlayerSummaries); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerSummaries(USteamCoreWebAsyncActionGetPlayerSummaries&&); \
+	NO_API USteamCoreWebAsyncActionGetPlayerSummaries(const USteamCoreWebAsyncActionGetPlayerSummaries&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerSummaries() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPlayerSummaries(USteamCoreWebAsyncActionGetPlayerSummaries&&); \
+	NO_API USteamCoreWebAsyncActionGetPlayerSummaries(const USteamCoreWebAsyncActionGetPlayerSummaries&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPlayerSummaries); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPlayerSummaries); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPlayerSummaries)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_92_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_95_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetPlayerSummaries>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPublisherAppOwnershipAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPublisherAppOwnershipAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPublisherAppOwnership(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPublisherAppOwnership_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPublisherAppOwnership, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPublisherAppOwnership)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPublisherAppOwnership(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPublisherAppOwnership_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPublisherAppOwnership, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPublisherAppOwnership)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnership(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPublisherAppOwnership) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPublisherAppOwnership); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPublisherAppOwnership); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnership(USteamCoreWebAsyncActionGetPublisherAppOwnership&&); \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnership(const USteamCoreWebAsyncActionGetPublisherAppOwnership&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnership() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnership(USteamCoreWebAsyncActionGetPublisherAppOwnership&&); \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnership(const USteamCoreWebAsyncActionGetPublisherAppOwnership&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPublisherAppOwnership); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPublisherAppOwnership); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPublisherAppOwnership)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_110_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_113_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetPublisherAppOwnership>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPublisherAppOwnershipChangesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPublisherAppOwnershipChangesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges&&); \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(const USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges&&); \
+	NO_API USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges(const USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_128_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_131_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetPublisherAppOwnershipChanges>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetUserGroupListAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetUserGroupListAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetUserGroupList(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetUserGroupList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetUserGroupList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetUserGroupList)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetUserGroupList(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetUserGroupList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetUserGroupList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetUserGroupList)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetUserGroupList(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetUserGroupList) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetUserGroupList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetUserGroupList); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetUserGroupList(USteamCoreWebAsyncActionGetUserGroupList&&); \
+	NO_API USteamCoreWebAsyncActionGetUserGroupList(const USteamCoreWebAsyncActionGetUserGroupList&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetUserGroupList() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetUserGroupList(USteamCoreWebAsyncActionGetUserGroupList&&); \
+	NO_API USteamCoreWebAsyncActionGetUserGroupList(const USteamCoreWebAsyncActionGetUserGroupList&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetUserGroupList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetUserGroupList); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetUserGroupList)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_149_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_152_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetUserGroupList>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGrantPackageAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGrantPackageAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGrantPackage(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGrantPackage_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGrantPackage, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGrantPackage)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGrantPackage(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGrantPackage_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGrantPackage, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGrantPackage)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGrantPackage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGrantPackage) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGrantPackage); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGrantPackage); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGrantPackage(USteamCoreWebAsyncActionGrantPackage&&); \
+	NO_API USteamCoreWebAsyncActionGrantPackage(const USteamCoreWebAsyncActionGrantPackage&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGrantPackage() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGrantPackage(USteamCoreWebAsyncActionGrantPackage&&); \
+	NO_API USteamCoreWebAsyncActionGrantPackage(const USteamCoreWebAsyncActionGrantPackage&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGrantPackage); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGrantPackage); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGrantPackage)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_167_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_170_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGrantPackage>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execResolveVanityURLAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execResolveVanityURLAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionResolveVanityURL(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionResolveVanityURL_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionResolveVanityURL, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionResolveVanityURL)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionResolveVanityURL(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionResolveVanityURL_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionResolveVanityURL, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionResolveVanityURL)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionResolveVanityURL(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionResolveVanityURL) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionResolveVanityURL); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionResolveVanityURL); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionResolveVanityURL(USteamCoreWebAsyncActionResolveVanityURL&&); \
+	NO_API USteamCoreWebAsyncActionResolveVanityURL(const USteamCoreWebAsyncActionResolveVanityURL&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionResolveVanityURL() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionResolveVanityURL(USteamCoreWebAsyncActionResolveVanityURL&&); \
+	NO_API USteamCoreWebAsyncActionResolveVanityURL(const USteamCoreWebAsyncActionResolveVanityURL&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionResolveVanityURL); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionResolveVanityURL); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionResolveVanityURL)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_191_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h_194_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionResolveVanityURL>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamUser_WebSteamUserAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

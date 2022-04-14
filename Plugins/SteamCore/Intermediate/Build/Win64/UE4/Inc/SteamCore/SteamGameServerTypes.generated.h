@@ -1,0 +1,164 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FGSClientDeny;
+struct FGSClientApprove;
+struct FValidateAuthTicketResponse;
+struct FGSClientGroupStatus;
+struct FGSPolicyResponse;
+struct FComputeNewPlayerCompatibilityResult;
+struct FAssociateWithClanResult;
+#ifdef STEAMCORE_SteamGameServerTypes_generated_h
+#error "SteamGameServerTypes.generated.h already included, missing '#pragma once' in SteamGameServerTypes.h"
+#endif
+#define STEAMCORE_SteamGameServerTypes_generated_h
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_111_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGSClientDeny_Statics; \
+	STEAMCORE_API static class UScriptStruct* StaticStruct();
+
+
+template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FGSClientDeny>();
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_95_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGSClientApprove_Statics; \
+	STEAMCORE_API static class UScriptStruct* StaticStruct();
+
+
+template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FGSClientApprove>();
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_73_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FComputeNewPlayerCompatibilityResult_Statics; \
+	STEAMCORE_API static class UScriptStruct* StaticStruct();
+
+
+template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FComputeNewPlayerCompatibilityResult>();
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_59_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FAssociateWithClanResult_Statics; \
+	STEAMCORE_API static class UScriptStruct* StaticStruct();
+
+
+template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FAssociateWithClanResult>();
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_39_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGSClientGroupStatus_Statics; \
+	STEAMCORE_API static class UScriptStruct* StaticStruct();
+
+
+template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FGSClientGroupStatus>();
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_25_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGSPolicyResponse_Statics; \
+	STEAMCORE_API static class UScriptStruct* StaticStruct();
+
+
+template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FGSPolicyResponse>();
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_137_DELEGATE \
+struct _Script_SteamCore_eventOnGSClientDeny_Parms \
+{ \
+	FGSClientDeny data; \
+}; \
+static inline void FOnGSClientDeny_DelegateWrapper(const FMulticastScriptDelegate& OnGSClientDeny, FGSClientDeny const& data) \
+{ \
+	_Script_SteamCore_eventOnGSClientDeny_Parms Parms; \
+	Parms.data=data; \
+	OnGSClientDeny.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_136_DELEGATE \
+struct _Script_SteamCore_eventOnGSClientApprove_Parms \
+{ \
+	FGSClientApprove data; \
+}; \
+static inline void FOnGSClientApprove_DelegateWrapper(const FMulticastScriptDelegate& OnGSClientApprove, FGSClientApprove const& data) \
+{ \
+	_Script_SteamCore_eventOnGSClientApprove_Parms Parms; \
+	Parms.data=data; \
+	OnGSClientApprove.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_135_DELEGATE \
+struct _Script_SteamCore_eventOnGSValidateAuthTicketResponse_Parms \
+{ \
+	FValidateAuthTicketResponse data; \
+}; \
+static inline void FOnGSValidateAuthTicketResponse_DelegateWrapper(const FMulticastScriptDelegate& OnGSValidateAuthTicketResponse, FValidateAuthTicketResponse const& data) \
+{ \
+	_Script_SteamCore_eventOnGSValidateAuthTicketResponse_Parms Parms; \
+	Parms.data=data; \
+	OnGSValidateAuthTicketResponse.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_134_DELEGATE \
+struct _Script_SteamCore_eventOnGSClientGroupStatus_Parms \
+{ \
+	FGSClientGroupStatus data; \
+}; \
+static inline void FOnGSClientGroupStatus_DelegateWrapper(const FMulticastScriptDelegate& OnGSClientGroupStatus, FGSClientGroupStatus const& data) \
+{ \
+	_Script_SteamCore_eventOnGSClientGroupStatus_Parms Parms; \
+	Parms.data=data; \
+	OnGSClientGroupStatus.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_133_DELEGATE \
+struct _Script_SteamCore_eventOnGSPolicyResponse_Parms \
+{ \
+	FGSPolicyResponse data; \
+}; \
+static inline void FOnGSPolicyResponse_DelegateWrapper(const FMulticastScriptDelegate& OnGSPolicyResponse, FGSPolicyResponse const& data) \
+{ \
+	_Script_SteamCore_eventOnGSPolicyResponse_Parms Parms; \
+	Parms.data=data; \
+	OnGSPolicyResponse.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_131_DELEGATE \
+struct _Script_SteamCore_eventOnComputeNewPlayerCompatibility_Parms \
+{ \
+	FComputeNewPlayerCompatibilityResult data; \
+	bool bWasSuccessful; \
+}; \
+static inline void FOnComputeNewPlayerCompatibility_DelegateWrapper(const FScriptDelegate& OnComputeNewPlayerCompatibility, FComputeNewPlayerCompatibilityResult const& data, bool bWasSuccessful) \
+{ \
+	_Script_SteamCore_eventOnComputeNewPlayerCompatibility_Parms Parms; \
+	Parms.data=data; \
+	Parms.bWasSuccessful=bWasSuccessful ? true : false; \
+	OnComputeNewPlayerCompatibility.ProcessDelegate<UObject>(&Parms); \
+}
+
+
+#define development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h_130_DELEGATE \
+struct _Script_SteamCore_eventOnAssociateWithClan_Parms \
+{ \
+	FAssociateWithClanResult data; \
+	bool bWasSuccessful; \
+}; \
+static inline void FOnAssociateWithClan_DelegateWrapper(const FScriptDelegate& OnAssociateWithClan, FAssociateWithClanResult const& data, bool bWasSuccessful) \
+{ \
+	_Script_SteamCore_eventOnAssociateWithClan_Parms Parms; \
+	Parms.data=data; \
+	Parms.bWasSuccessful=bWasSuccessful ? true : false; \
+	OnAssociateWithClan.ProcessDelegate<UObject>(&Parms); \
+}
+
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID development_Plugins_SteamCore_Source_SteamCore_Public_SteamGameServer_SteamGameServerTypes_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

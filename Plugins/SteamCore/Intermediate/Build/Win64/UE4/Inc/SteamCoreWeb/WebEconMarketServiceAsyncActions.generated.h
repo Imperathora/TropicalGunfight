@@ -1,0 +1,357 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
+class USteamCoreWebAsyncActionGetMarketEligibility;
+class USteamCoreWebAsyncActionCancelAppListingsForUser;
+class USteamCoreWebAsyncActionGetAssetID;
+class USteamCoreWebAsyncActionGetPopular;
+#ifdef STEAMCOREWEB_WebEconMarketServiceAsyncActions_generated_h
+#error "WebEconMarketServiceAsyncActions.generated.h already included, missing '#pragma once' in WebEconMarketServiceAsyncActions.h"
+#endif
+#define STEAMCOREWEB_WebEconMarketServiceAsyncActions_generated_h
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMarketEligibilityAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMarketEligibilityAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetMarketEligibility(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetMarketEligibility_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetMarketEligibility, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetMarketEligibility)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetMarketEligibility(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetMarketEligibility_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetMarketEligibility, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetMarketEligibility)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetMarketEligibility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetMarketEligibility) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetMarketEligibility); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetMarketEligibility); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetMarketEligibility(USteamCoreWebAsyncActionGetMarketEligibility&&); \
+	NO_API USteamCoreWebAsyncActionGetMarketEligibility(const USteamCoreWebAsyncActionGetMarketEligibility&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetMarketEligibility() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetMarketEligibility(USteamCoreWebAsyncActionGetMarketEligibility&&); \
+	NO_API USteamCoreWebAsyncActionGetMarketEligibility(const USteamCoreWebAsyncActionGetMarketEligibility&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetMarketEligibility); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetMarketEligibility); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetMarketEligibility)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_21_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_24_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetMarketEligibility>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCancelAppListingsForUserAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCancelAppListingsForUserAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionCancelAppListingsForUser(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionCancelAppListingsForUser_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionCancelAppListingsForUser, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionCancelAppListingsForUser)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionCancelAppListingsForUser(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionCancelAppListingsForUser_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionCancelAppListingsForUser, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionCancelAppListingsForUser)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionCancelAppListingsForUser(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionCancelAppListingsForUser) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionCancelAppListingsForUser); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionCancelAppListingsForUser); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionCancelAppListingsForUser(USteamCoreWebAsyncActionCancelAppListingsForUser&&); \
+	NO_API USteamCoreWebAsyncActionCancelAppListingsForUser(const USteamCoreWebAsyncActionCancelAppListingsForUser&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionCancelAppListingsForUser() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionCancelAppListingsForUser(USteamCoreWebAsyncActionCancelAppListingsForUser&&); \
+	NO_API USteamCoreWebAsyncActionCancelAppListingsForUser(const USteamCoreWebAsyncActionCancelAppListingsForUser&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionCancelAppListingsForUser); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionCancelAppListingsForUser); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionCancelAppListingsForUser)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_39_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_42_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionCancelAppListingsForUser>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAssetIDAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAssetIDAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetAssetID(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetAssetID_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetAssetID, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetAssetID)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetAssetID(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetAssetID_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetAssetID, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetAssetID)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetAssetID(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetAssetID) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetAssetID); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetAssetID); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetAssetID(USteamCoreWebAsyncActionGetAssetID&&); \
+	NO_API USteamCoreWebAsyncActionGetAssetID(const USteamCoreWebAsyncActionGetAssetID&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetAssetID() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetAssetID(USteamCoreWebAsyncActionGetAssetID&&); \
+	NO_API USteamCoreWebAsyncActionGetAssetID(const USteamCoreWebAsyncActionGetAssetID&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetAssetID); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetAssetID); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetAssetID)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_59_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_62_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetAssetID>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPopularAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPopularAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPopular(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPopular_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPopular, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPopular)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPopular(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPopular_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPopular, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPopular)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPopular(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPopular) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPopular); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPopular); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPopular(USteamCoreWebAsyncActionGetPopular&&); \
+	NO_API USteamCoreWebAsyncActionGetPopular(const USteamCoreWebAsyncActionGetPopular&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPopular() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPopular(USteamCoreWebAsyncActionGetPopular&&); \
+	NO_API USteamCoreWebAsyncActionGetPopular(const USteamCoreWebAsyncActionGetPopular&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPopular); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPopular); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPopular)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_78_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h_81_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetPopular>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID development_Plugins_SteamCore_Source_SteamCoreWeb_Public_EconMarket_WebEconMarketServiceAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

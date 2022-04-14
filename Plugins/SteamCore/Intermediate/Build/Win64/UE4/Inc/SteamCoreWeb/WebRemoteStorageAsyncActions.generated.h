@@ -1,0 +1,693 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
+class USteamCoreWebAsyncActionEnumerateUserPublishedFiles;
+class USteamCoreWebAsyncActionEnumerateUserSubscribedFiles;
+class USteamCoreWebAsyncActionGetCollectionDetails;
+class USteamCoreWebAsyncActionGetPublishedFileDetails;
+class USteamCoreWebAsyncActionGetUGCFileDetails;
+class USteamCoreWebAsyncActionSetUGCUsedByGC;
+class USteamCoreWebAsyncActionSubscribePublishedFile;
+class USteamCoreWebAsyncActionUnsubscribePublishedFile;
+#ifdef STEAMCOREWEB_WebRemoteStorageAsyncActions_generated_h
+#error "WebRemoteStorageAsyncActions.generated.h already included, missing '#pragma once' in WebRemoteStorageAsyncActions.h"
+#endif
+#define STEAMCOREWEB_WebRemoteStorageAsyncActions_generated_h
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execEnumerateUserPublishedFilesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEnumerateUserPublishedFilesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionEnumerateUserPublishedFiles(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionEnumerateUserPublishedFiles_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionEnumerateUserPublishedFiles, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionEnumerateUserPublishedFiles)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionEnumerateUserPublishedFiles(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionEnumerateUserPublishedFiles_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionEnumerateUserPublishedFiles, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionEnumerateUserPublishedFiles)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserPublishedFiles(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionEnumerateUserPublishedFiles) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionEnumerateUserPublishedFiles); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionEnumerateUserPublishedFiles); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserPublishedFiles(USteamCoreWebAsyncActionEnumerateUserPublishedFiles&&); \
+	NO_API USteamCoreWebAsyncActionEnumerateUserPublishedFiles(const USteamCoreWebAsyncActionEnumerateUserPublishedFiles&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserPublishedFiles() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserPublishedFiles(USteamCoreWebAsyncActionEnumerateUserPublishedFiles&&); \
+	NO_API USteamCoreWebAsyncActionEnumerateUserPublishedFiles(const USteamCoreWebAsyncActionEnumerateUserPublishedFiles&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionEnumerateUserPublishedFiles); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionEnumerateUserPublishedFiles); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionEnumerateUserPublishedFiles)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_18_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_21_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionEnumerateUserPublishedFiles>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execEnumerateUserSubscribedFilesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEnumerateUserSubscribedFilesAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionEnumerateUserSubscribedFiles(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionEnumerateUserSubscribedFiles_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionEnumerateUserSubscribedFiles(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionEnumerateUserSubscribedFiles_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserSubscribedFiles(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionEnumerateUserSubscribedFiles); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserSubscribedFiles(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles&&); \
+	NO_API USteamCoreWebAsyncActionEnumerateUserSubscribedFiles(const USteamCoreWebAsyncActionEnumerateUserSubscribedFiles&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserSubscribedFiles() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionEnumerateUserSubscribedFiles(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles&&); \
+	NO_API USteamCoreWebAsyncActionEnumerateUserSubscribedFiles(const USteamCoreWebAsyncActionEnumerateUserSubscribedFiles&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionEnumerateUserSubscribedFiles); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionEnumerateUserSubscribedFiles)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_37_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_40_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionEnumerateUserSubscribedFiles>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetCollectionDetailsAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetCollectionDetailsAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetCollectionDetails(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetCollectionDetails_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetCollectionDetails, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetCollectionDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetCollectionDetails(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetCollectionDetails_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetCollectionDetails, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetCollectionDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetCollectionDetails(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetCollectionDetails) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetCollectionDetails); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetCollectionDetails); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetCollectionDetails(USteamCoreWebAsyncActionGetCollectionDetails&&); \
+	NO_API USteamCoreWebAsyncActionGetCollectionDetails(const USteamCoreWebAsyncActionGetCollectionDetails&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetCollectionDetails() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetCollectionDetails(USteamCoreWebAsyncActionGetCollectionDetails&&); \
+	NO_API USteamCoreWebAsyncActionGetCollectionDetails(const USteamCoreWebAsyncActionGetCollectionDetails&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetCollectionDetails); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetCollectionDetails); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetCollectionDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_58_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_61_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetCollectionDetails>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPublishedFileDetailsAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPublishedFileDetailsAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPublishedFileDetails(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPublishedFileDetails_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPublishedFileDetails, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPublishedFileDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetPublishedFileDetails(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetPublishedFileDetails_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetPublishedFileDetails, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetPublishedFileDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPublishedFileDetails(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPublishedFileDetails) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPublishedFileDetails); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPublishedFileDetails); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPublishedFileDetails(USteamCoreWebAsyncActionGetPublishedFileDetails&&); \
+	NO_API USteamCoreWebAsyncActionGetPublishedFileDetails(const USteamCoreWebAsyncActionGetPublishedFileDetails&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetPublishedFileDetails() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetPublishedFileDetails(USteamCoreWebAsyncActionGetPublishedFileDetails&&); \
+	NO_API USteamCoreWebAsyncActionGetPublishedFileDetails(const USteamCoreWebAsyncActionGetPublishedFileDetails&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetPublishedFileDetails); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetPublishedFileDetails); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetPublishedFileDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_75_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetPublishedFileDetails>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetUGCFileDetailsAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetUGCFileDetailsAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetUGCFileDetails(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetUGCFileDetails_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetUGCFileDetails, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetUGCFileDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionGetUGCFileDetails(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionGetUGCFileDetails_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionGetUGCFileDetails, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionGetUGCFileDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetUGCFileDetails(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetUGCFileDetails) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetUGCFileDetails); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetUGCFileDetails); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetUGCFileDetails(USteamCoreWebAsyncActionGetUGCFileDetails&&); \
+	NO_API USteamCoreWebAsyncActionGetUGCFileDetails(const USteamCoreWebAsyncActionGetUGCFileDetails&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionGetUGCFileDetails() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionGetUGCFileDetails(USteamCoreWebAsyncActionGetUGCFileDetails&&); \
+	NO_API USteamCoreWebAsyncActionGetUGCFileDetails(const USteamCoreWebAsyncActionGetUGCFileDetails&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionGetUGCFileDetails); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionGetUGCFileDetails); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionGetUGCFileDetails)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_92_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_95_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionGetUGCFileDetails>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetUGCUsedByGCAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetUGCUsedByGCAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionSetUGCUsedByGC(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionSetUGCUsedByGC_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionSetUGCUsedByGC, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionSetUGCUsedByGC)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionSetUGCUsedByGC(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionSetUGCUsedByGC_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionSetUGCUsedByGC, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionSetUGCUsedByGC)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionSetUGCUsedByGC(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionSetUGCUsedByGC) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionSetUGCUsedByGC); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionSetUGCUsedByGC); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionSetUGCUsedByGC(USteamCoreWebAsyncActionSetUGCUsedByGC&&); \
+	NO_API USteamCoreWebAsyncActionSetUGCUsedByGC(const USteamCoreWebAsyncActionSetUGCUsedByGC&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionSetUGCUsedByGC() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionSetUGCUsedByGC(USteamCoreWebAsyncActionSetUGCUsedByGC&&); \
+	NO_API USteamCoreWebAsyncActionSetUGCUsedByGC(const USteamCoreWebAsyncActionSetUGCUsedByGC&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionSetUGCUsedByGC); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionSetUGCUsedByGC); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionSetUGCUsedByGC)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_112_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_115_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionSetUGCUsedByGC>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSubscribePublishedFileAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSubscribePublishedFileAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionSubscribePublishedFile(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionSubscribePublishedFile_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionSubscribePublishedFile, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionSubscribePublishedFile)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionSubscribePublishedFile(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionSubscribePublishedFile_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionSubscribePublishedFile, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionSubscribePublishedFile)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionSubscribePublishedFile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionSubscribePublishedFile) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionSubscribePublishedFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionSubscribePublishedFile); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionSubscribePublishedFile(USteamCoreWebAsyncActionSubscribePublishedFile&&); \
+	NO_API USteamCoreWebAsyncActionSubscribePublishedFile(const USteamCoreWebAsyncActionSubscribePublishedFile&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionSubscribePublishedFile() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionSubscribePublishedFile(USteamCoreWebAsyncActionSubscribePublishedFile&&); \
+	NO_API USteamCoreWebAsyncActionSubscribePublishedFile(const USteamCoreWebAsyncActionSubscribePublishedFile&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionSubscribePublishedFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionSubscribePublishedFile); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionSubscribePublishedFile)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_133_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_136_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionSubscribePublishedFile>();
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_SPARSE_DATA
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUnsubscribePublishedFileAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUnsubscribePublishedFileAsync);
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionUnsubscribePublishedFile(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionUnsubscribePublishedFile_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionUnsubscribePublishedFile, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionUnsubscribePublishedFile)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreWebAsyncActionUnsubscribePublishedFile(); \
+	friend struct Z_Construct_UClass_USteamCoreWebAsyncActionUnsubscribePublishedFile_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreWebAsyncActionUnsubscribePublishedFile, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreWebAsyncActionUnsubscribePublishedFile)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionUnsubscribePublishedFile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionUnsubscribePublishedFile) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionUnsubscribePublishedFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionUnsubscribePublishedFile); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionUnsubscribePublishedFile(USteamCoreWebAsyncActionUnsubscribePublishedFile&&); \
+	NO_API USteamCoreWebAsyncActionUnsubscribePublishedFile(const USteamCoreWebAsyncActionUnsubscribePublishedFile&); \
+public:
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreWebAsyncActionUnsubscribePublishedFile() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreWebAsyncActionUnsubscribePublishedFile(USteamCoreWebAsyncActionUnsubscribePublishedFile&&); \
+	NO_API USteamCoreWebAsyncActionUnsubscribePublishedFile(const USteamCoreWebAsyncActionUnsubscribePublishedFile&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreWebAsyncActionUnsubscribePublishedFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreWebAsyncActionUnsubscribePublishedFile); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreWebAsyncActionUnsubscribePublishedFile)
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_PRIVATE_PROPERTY_OFFSET
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_153_PROLOG
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_RPC_WRAPPERS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_INCLASS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_PRIVATE_PROPERTY_OFFSET \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_SPARSE_DATA \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_RPC_WRAPPERS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_INCLASS_NO_PURE_DECLS \
+	development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h_156_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreWebAsyncActionUnsubscribePublishedFile>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID development_Plugins_SteamCore_Source_SteamCoreWeb_Public_SteamRemoteStorage_WebRemoteStorageAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

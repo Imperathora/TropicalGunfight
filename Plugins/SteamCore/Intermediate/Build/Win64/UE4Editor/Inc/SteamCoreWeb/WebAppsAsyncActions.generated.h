@@ -1,0 +1,861 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
+class USteamCoreAppsAsyncActionGetAppBetas;
+class USteamCoreAppsAsyncActionGetAppBuilds;
+class USteamCoreAppsAsyncActionGetAppDepotVersions;
+class USteamCoreAppsAsyncActionGetAppList;
+class USteamCoreAppsAsyncActionGetCheatingReports;
+class USteamCoreAppsAsyncActionGetPlayersBanned;
+class USteamCoreAppsAsyncActionGetServerList;
+class USteamCoreAppsAsyncActionGetServersAtAddress;
+class USteamCoreAppsAsyncActionSetAppBuildLive;
+class USteamCoreAppsAsyncActionUpToDateCheck;
+#ifdef STEAMCOREWEB_WebAppsAsyncActions_generated_h
+#error "WebAppsAsyncActions.generated.h already included, missing '#pragma once' in WebAppsAsyncActions.h"
+#endif
+#define STEAMCOREWEB_WebAppsAsyncActions_generated_h
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAppBetasAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAppBetasAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppBetas(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppBetas_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppBetas, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppBetas)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppBetas(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppBetas_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppBetas, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppBetas)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBetas(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppBetas) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppBetas); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppBetas); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBetas(USteamCoreAppsAsyncActionGetAppBetas&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppBetas(const USteamCoreAppsAsyncActionGetAppBetas&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBetas() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBetas(USteamCoreAppsAsyncActionGetAppBetas&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppBetas(const USteamCoreAppsAsyncActionGetAppBetas&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppBetas); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppBetas); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppBetas)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_21_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_24_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetAppBetas>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAppBuildsAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAppBuildsAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppBuilds(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppBuilds_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppBuilds, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppBuilds)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppBuilds(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppBuilds_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppBuilds, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppBuilds)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBuilds(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppBuilds) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppBuilds); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppBuilds); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBuilds(USteamCoreAppsAsyncActionGetAppBuilds&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppBuilds(const USteamCoreAppsAsyncActionGetAppBuilds&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBuilds() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppBuilds(USteamCoreAppsAsyncActionGetAppBuilds&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppBuilds(const USteamCoreAppsAsyncActionGetAppBuilds&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppBuilds); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppBuilds); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppBuilds)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_41_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetAppBuilds>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAppDepotVersionsAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAppDepotVersionsAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppDepotVersions(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppDepotVersions_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppDepotVersions, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppDepotVersions)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppDepotVersions(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppDepotVersions_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppDepotVersions, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppDepotVersions)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppDepotVersions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppDepotVersions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppDepotVersions); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppDepotVersions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppDepotVersions(USteamCoreAppsAsyncActionGetAppDepotVersions&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppDepotVersions(const USteamCoreAppsAsyncActionGetAppDepotVersions&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppDepotVersions() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppDepotVersions(USteamCoreAppsAsyncActionGetAppDepotVersions&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppDepotVersions(const USteamCoreAppsAsyncActionGetAppDepotVersions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppDepotVersions); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppDepotVersions); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppDepotVersions)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_62_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_65_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetAppDepotVersions>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetAppListAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAppListAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppList(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppList)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetAppList(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetAppList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetAppList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetAppList)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppList(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppList) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppList); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppList(USteamCoreAppsAsyncActionGetAppList&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppList(const USteamCoreAppsAsyncActionGetAppList&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetAppList() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetAppList(USteamCoreAppsAsyncActionGetAppList&&); \
+	NO_API USteamCoreAppsAsyncActionGetAppList(const USteamCoreAppsAsyncActionGetAppList&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetAppList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetAppList); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetAppList)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_82_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_85_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetAppList>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetCheatingReportsAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetCheatingReportsAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetCheatingReports(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetCheatingReports_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetCheatingReports, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetCheatingReports)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetCheatingReports(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetCheatingReports_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetCheatingReports, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetCheatingReports)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetCheatingReports(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetCheatingReports) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetCheatingReports); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetCheatingReports); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetCheatingReports(USteamCoreAppsAsyncActionGetCheatingReports&&); \
+	NO_API USteamCoreAppsAsyncActionGetCheatingReports(const USteamCoreAppsAsyncActionGetCheatingReports&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetCheatingReports() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetCheatingReports(USteamCoreAppsAsyncActionGetCheatingReports&&); \
+	NO_API USteamCoreAppsAsyncActionGetCheatingReports(const USteamCoreAppsAsyncActionGetCheatingReports&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetCheatingReports); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetCheatingReports); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetCheatingReports)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_99_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_102_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetCheatingReports>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPlayersBannedAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPlayersBannedAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetPlayersBanned(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetPlayersBanned_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetPlayersBanned, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetPlayersBanned)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetPlayersBanned(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetPlayersBanned_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetPlayersBanned, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetPlayersBanned)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetPlayersBanned(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetPlayersBanned) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetPlayersBanned); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetPlayersBanned); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetPlayersBanned(USteamCoreAppsAsyncActionGetPlayersBanned&&); \
+	NO_API USteamCoreAppsAsyncActionGetPlayersBanned(const USteamCoreAppsAsyncActionGetPlayersBanned&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetPlayersBanned() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetPlayersBanned(USteamCoreAppsAsyncActionGetPlayersBanned&&); \
+	NO_API USteamCoreAppsAsyncActionGetPlayersBanned(const USteamCoreAppsAsyncActionGetPlayersBanned&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetPlayersBanned); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetPlayersBanned); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetPlayersBanned)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_125_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_128_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetPlayersBanned>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetServerListAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetServerListAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetServerList(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetServerList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetServerList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetServerList)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetServerList(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetServerList_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetServerList, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetServerList)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetServerList(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetServerList) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetServerList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetServerList); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetServerList(USteamCoreAppsAsyncActionGetServerList&&); \
+	NO_API USteamCoreAppsAsyncActionGetServerList(const USteamCoreAppsAsyncActionGetServerList&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetServerList() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetServerList(USteamCoreAppsAsyncActionGetServerList&&); \
+	NO_API USteamCoreAppsAsyncActionGetServerList(const USteamCoreAppsAsyncActionGetServerList&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetServerList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetServerList); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetServerList)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_143_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_146_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetServerList>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetServersAtAddressAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetServersAtAddressAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetServersAtAddress(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetServersAtAddress_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetServersAtAddress, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetServersAtAddress)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionGetServersAtAddress(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionGetServersAtAddress_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionGetServersAtAddress, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionGetServersAtAddress)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetServersAtAddress(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetServersAtAddress) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetServersAtAddress); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetServersAtAddress); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetServersAtAddress(USteamCoreAppsAsyncActionGetServersAtAddress&&); \
+	NO_API USteamCoreAppsAsyncActionGetServersAtAddress(const USteamCoreAppsAsyncActionGetServersAtAddress&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionGetServersAtAddress() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionGetServersAtAddress(USteamCoreAppsAsyncActionGetServersAtAddress&&); \
+	NO_API USteamCoreAppsAsyncActionGetServersAtAddress(const USteamCoreAppsAsyncActionGetServersAtAddress&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionGetServersAtAddress); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionGetServersAtAddress); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionGetServersAtAddress)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_162_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_165_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionGetServersAtAddress>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetAppBuildLiveAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetAppBuildLiveAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionSetAppBuildLive(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionSetAppBuildLive_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionSetAppBuildLive, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionSetAppBuildLive)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionSetAppBuildLive(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionSetAppBuildLive_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionSetAppBuildLive, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionSetAppBuildLive)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionSetAppBuildLive(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionSetAppBuildLive) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionSetAppBuildLive); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionSetAppBuildLive); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionSetAppBuildLive(USteamCoreAppsAsyncActionSetAppBuildLive&&); \
+	NO_API USteamCoreAppsAsyncActionSetAppBuildLive(const USteamCoreAppsAsyncActionSetAppBuildLive&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionSetAppBuildLive() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionSetAppBuildLive(USteamCoreAppsAsyncActionSetAppBuildLive&&); \
+	NO_API USteamCoreAppsAsyncActionSetAppBuildLive(const USteamCoreAppsAsyncActionSetAppBuildLive&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionSetAppBuildLive); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionSetAppBuildLive); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionSetAppBuildLive)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_177_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_180_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionSetAppBuildLive>();
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_SPARSE_DATA
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpToDateCheckAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpToDateCheckAsync);
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionUpToDateCheck(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionUpToDateCheck_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionUpToDateCheck, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionUpToDateCheck)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_INCLASS \
+private: \
+	static void StaticRegisterNativesUSteamCoreAppsAsyncActionUpToDateCheck(); \
+	friend struct Z_Construct_UClass_USteamCoreAppsAsyncActionUpToDateCheck_Statics; \
+public: \
+	DECLARE_CLASS(USteamCoreAppsAsyncActionUpToDateCheck, USteamCoreWebAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamCoreWeb"), NO_API) \
+	DECLARE_SERIALIZER(USteamCoreAppsAsyncActionUpToDateCheck)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionUpToDateCheck(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionUpToDateCheck) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionUpToDateCheck); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionUpToDateCheck); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionUpToDateCheck(USteamCoreAppsAsyncActionUpToDateCheck&&); \
+	NO_API USteamCoreAppsAsyncActionUpToDateCheck(const USteamCoreAppsAsyncActionUpToDateCheck&); \
+public:
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USteamCoreAppsAsyncActionUpToDateCheck() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USteamCoreAppsAsyncActionUpToDateCheck(USteamCoreAppsAsyncActionUpToDateCheck&&); \
+	NO_API USteamCoreAppsAsyncActionUpToDateCheck(const USteamCoreAppsAsyncActionUpToDateCheck&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USteamCoreAppsAsyncActionUpToDateCheck); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USteamCoreAppsAsyncActionUpToDateCheck); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USteamCoreAppsAsyncActionUpToDateCheck)
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_198_PROLOG
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_RPC_WRAPPERS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_INCLASS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_SPARSE_DATA \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h_201_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMCOREWEB_API UClass* StaticClass<class USteamCoreAppsAsyncActionUpToDateCheck>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID HostProject_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebAppsAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,2 @@
+F:\TGF\SVN\development\Plugins\SteamCore\Intermediate\Build\Win64\UE4\Shipping\SteamFix\Definitions.SteamFix.h
+F:\TGF\SVN\development\Plugins\SteamCore\Source\SteamFix\Public\SteamFixModule.h

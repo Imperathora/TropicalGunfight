@@ -1,0 +1,10 @@
+{
+	"BuildId": "14830424",
+	"Modules": 
+	{
+		"SteamCore": "UE4Editor-SteamCore.dll",
+		"SteamCoreEditor": "UE4Editor-SteamCoreEditor.dll",
+		"SteamCoreWeb": "UE4Editor-SteamCoreWeb.dll",
+		"SteamFix": "UE4Editor-SteamFix.dll"
+	}
+}

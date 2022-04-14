@@ -1,0 +1,43 @@
+/**
+* Copyright (C) 2017-2021 | eelDev (Dry Eel Development)
+*
+* Official Steamworks Documentation: https://partner.steamgames.com/doc/api/ISteamApps
+*/
+
+#pragma once
+
+#include "SteamAppsTypes.h"
+#include "SteamCore/SteamCoreAsync.h"
+#include "SteamAppsAsyncActions.generated.h"
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+//		Delegate declarations
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnFileDetailsResultAsyncDelegate, const FFileDetailsResult&, data, bool, bWasSuccessful);
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+//		USteamCoreAppsAsyncActionGetFileDetails
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+UCLASS()
+class STEAMCORE_API USteamCoreAppsAsyncActionGetFileDetails : public USteamCoreAsyncAction
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(BlueprintAssignable)
+		FOnFileDetailsResultAsyncDelegate OnCallback;
+public:
+	/**
+	* Asynchronously retrieves metadata details about a specific file in the depot manifest.
+	* Currently provides:
+	* The file size in bytes.
+	* The file's SHA1 hash.
+	* The file's flags.
+	*
+	* @param	fileName	The absolute path and name to the file.
+	*/
+	UFUNCTION(BlueprintCallable, meta = (BlueprintInternalUseOnly = "true", WorldContext = "WorldContextObject", DisplayName = "Get File Details"), Category = "SteamCore|Apps|Async")
+		static USteamCoreAppsAsyncActionGetFileDetails* GetFileDetailsAsync(UObject* WorldContextObject, FString fileName);
+public:
+	UFUNCTION()
+		void HandleCallback(const FFileDetailsResult& data, bool bWasSuccessful);
+};
